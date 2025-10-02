@@ -4,8 +4,8 @@ from selenium.webdriver.common.keys import Keys
 import time
 PROMISED_DOWN = 150
 PROMISED_UP = 10
-TWITTER_EMAIL = "thatpythonguy2374@gmail.com"
-TWITTER_PASSWORD = "Apinder@2374"
+TWITTER_EMAIL = ${{ TWITTER_NEW_PASSWORD }}
+TWITTER_PASSWORD = ${{ TWITTER_NEW_USER }}
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_experimental_option("detach", True)
@@ -53,6 +53,7 @@ class InternetSpeedTwitterBot:
 bot = InternetSpeedTwitterBot()
 bot.get_internet_speed()
 bot.tweet_at_provider()
+
 
 
 
